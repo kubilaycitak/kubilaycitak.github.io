@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Eskisehir</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
+
+img {
+
+    padding: 15px
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th><a href="home.htm">Home</th>
+    <th><a href="localdishes.htm">Local Dishes</a></th>
+    <th><a href="historicalplaces.htm">Historical Places</a></th>
+    <th><a href="usefullinks.htm">Useful Links</a></th>
+    <th><a href="aboutme.htm">About Me</a></th>
+    <th><a href="contactme.htm">Contact Me</a></th>
+    <th><a href="registration.htm" style="font-size: 27px;">Registration</a></th>
+  </tr>
+ 
+</table>
+
+<form action="reg_successful.htm" style="border:1px solid #ccc">
+  <div class="container">
+
+    <p>Please fill in this form.</p>
+    <hr>
+
+    <br> <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required> </br>
+    
+    <br> <label for="surname"><b>Surname</b></label>
+    <input type="text" placeholder="Enter Surname" name="surname" required> </br>
+    
+    <br> <label for="dob"><b>Date of Birth</b></label>
+    <input type="date" placeholder="Enter Date of Birth" name="dob" required> </br>
+    
+    <br> <label for="e-mail"><b>E-mail</b></label>
+    <input type="text" placeholder="Enter E-mail" name="e-mail" required> </br>
+
+    <br> <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required> </br>
+    
+     <br> <p>Gender: 
+      <select>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select> </br>
+
+<br> <p>Interests:  </p> 
+
+<label>
+   
+     <label>
+        <input type="checkbox" name="music" style="margin-bottom:15px"> Music
+      </label>
+      
+       <label>
+        <input type="checkbox" name="sports" style="margin-bottom:15px"> Sports
+      </label>
+      
+       <label>
+        <input type="checkbox" name="coding" style="margin-bottom:15px"> Coding
+      </label>
+      
+       <label>
+        <input type="checkbox" name="reading" style="margin-bottom:15px"> Reading
+      </label>
+      
+       <label>
+        <input type="checkbox" name="watching_movies" style="margin-bottom:15px"> Watching Movies
+      </label>
+      
+       <label>
+        <input type="checkbox" name="drawing" style="margin-bottom:15px"> Drawing
+      </label>
+
+
+    <br> <div class="clearfix">
+      <button type="reset" class="cancelbtn">Reset</button>
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+</form>
