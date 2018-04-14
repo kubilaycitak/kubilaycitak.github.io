@@ -1,105 +1,140 @@
 <!DOCTYPE html>
+<html lang="tr">
 <html>
 <head>
-  <title>About Eskisehir</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <title>About Eskisehir</title>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 15px;
-    
+
+body{
+
+		color:white;	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+div1 {
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 20px;
+}
+
 </style>
 </head>
-<body>
+<body style="background-color:#424242;">
 
-<table style="width:100%">
-  <tr>
-    <th><a href="home.htm">Home</th>
-    <th><a href="localdishes.htm">Local Dishes</a></th>
-    <th><a href="historicalplaces.htm" style="font-size: 27px;" >Historical Places</a></th>
-    <th><a href="usefullinks.htm">Useful Links</a></th>
-    <th><a href="aboutme.htm">About Me</a></th>
-    <th><a href="contactme.htm">Contact Me</a></th>
-    <th><a href="registration.htm">Registration</a></th>
-  </tr>
- 
-</table>
+  <ul>
+    <li><a class="active" href="home.htm">Home</a></li>
+    <li><a class="active" href="localdishes.htm">Local Dishes</a></li>
+    <li><a class="active" href="historicalplaces.htm">Historical Places</a></li>
+    <li><a class="active" href="usefullinks.htm">Useful Links</a></li>
+  	<li><a class="active" href="aboutme.htm">About Me</a></li>
+    <li><a class="active" href="contactme.htm">Contact Me</a></li>
+    <li><a class="active" href="registration.htm">Registration</a></li>
+  </ul>
 
+<div class="container-fluid">
 
-
-  <h1>Historical of Eskisehir</h1>
+  <div1><h1>Historical Places of Eskisehir</h1>
   <p>Eskisehir has a history that goes to centuries ago, and there are still some historical places that you can visit. Travelling is not a problem at all, you can visit almost every place by public transportation. There are some examples: </p>
-  
-  <table>
 
 
-    <tr>
-
-      <th>Odunpazari Houses: Odunpazarı Houses are in the area of oldest settlement of Eskisehir and they are dated back to the Ottoman period.
-   
-  
- <img src="odunpazari.jpg" alt="Odunpazarı Houses" width="500" height="377"> 
-
-<th> 
-
- 
-
- <th>Midas Monument: This monument might be the oldest historical place you can visit.
-   
-  
- <img src="midas.jpg" alt="Midas Monument" width="500" height="377"> 
-
-<th> 
+<div class="row">
 
 
- <th>Seyyid Battal Gazi Complex: Battal Gazi Complex is a center for religious significance and it covers mosques, tombs etc.
-    
-  
- <img src="kulliye.jpg" alt="SBGC" width="500" height="377"> 
 
-<th> 
-
-</tr>
-
-<tr>
-
-  <th>Haci Hafiz Ahmet Efendi Konagi: A nice place that you can smell history in the air.
-    
-  
- <img src="hacihafiz.jpg" alt="HHAEK" width="500" height="377"> 
-
-<th> 
-
-
-  <th>Yunus Emre Tomb: The grave of a religious poet, a great visiting place for your religious side.
-    
-  
- <img src="yunusemre.jpg" alt="YET" width="500" height="377"> 
-
-<th> 
-
-  <th>Kursunlu Mosque: Also a religious place if you would like to stop by.
-    
-  
- <img src="kursunlu.jpg" alt="Kursunlu Mosque" width="500" height="377"> 
-
-<th> 
-
-</tr>
+<div class="col-lg-4">
+<img src="odunpazari.jpg" alt="Odunpazarı Houses" width="500" height="377">
+<div class="container">
+  <h4><b>Odunpazari Houses</b></h4>
+  <p>Odunpazarı Houses are in the area of oldest settlement of Eskisehir and they are dated back to the Ottoman period.</p>
+    </div>
+  </div>
 
 
 
 
-  </table>
 
+<div class="col-lg-4">
+<img src="midas.jpg" alt="Midas Monument" width="500" height="377">
+<div class="container">
+  <h4><b>Midas Monument</b></h4>
+  <p>This monument might be the oldest historical place you can visit.</p>
+    </div>
+  </div>
+
+
+
+
+<div class="col-lg-4">
+<img src="kulliye.jpg" alt="SBGC" width="500" height="377">
+<div class="container">
+  <h4><b>Seyyid Battal Gazi Complex</b></h4>
+  <p>Battal Gazi Complex is a center for religious significance and it covers mosques, tombs etc.</p>
+    </div>
+  </div>
+
+
+
+<div class="col-lg-4">
+<img src="hacihafiz.jpg" alt="HHAEK" width="500" height="377">
+<div class="container">
+  <h4><b>Haci Hafiz Ahmet Efendi Konagi</b></h4>
+  <p>A nice place that you can smell history in the air.</p>
+    </div>
+  </div>
+
+
+
+<div class="col-lg-4">
+<img src="yunusemre.jpg" alt="YET" width="500" height="377">
+<div class="container">
+  <h4><b>Yunus Emre Tomb</b></h4>
+  <p>The grave of a religious poet, a great visiting place for your religious side.</p>
+    </div>
+  </div>
+
+
+
+<div class="col-lg-4">
+<img src="kursunlu.jpg" alt="Kursunlu Mosque" width="500" height="377">
+<div class="container">
+  <h4><b>Kursunlu Mosque</b></h4>
+  <p>Also a religious place if you would like to stop by.</p>
+    </div>
+  </div>
+
+
+
+</div1>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJA
 </body>
 </html>
-
-
-
-
-
-  
