@@ -2,10 +2,13 @@
 <html lang="tr">
 <html>
 <head>
-	 <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <title>About Eskisehir</title>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<title>About Eskisehir</title>
 <style>
 
 body{
@@ -36,38 +39,60 @@ li a:hover {
     background-color: #111;
 }
 
-div {
-padding-top: 10px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 20px;
-}
+
 
 </style>
 </head>
 <body style="background-color:#424242;">
 
-	<ul>
-	  <li><a class="active" href="home.htm">Home</a></li>
-	  <li><a class="active" href="localdishes.htm">Local Dishes</a></li>
-	  <li><a class="active" href="historicalplaces.htm">Historical Places</a></li>
-	  <li><a class="active" href="usefullinks.htm">Useful Links</a></li>
-		<li><a class="active" href="aboutme.htm">About Me</a></li>
-	  <li><a class="active" href="contactme.htm">Contact Me</a></li>
-	  <li><a class="active" href="registration.htm">Registration</a></li>
-	</ul>
 
-<div><h2>Useful Links</h2>
-<p>There are some links that might be useful in some situations:  </p>
-<p><a href="https://www.hastane.com.tr/eskisehir-eskisehir_merkez-hastaneleri.html">Hospitals in Eskisehir</a></p>
-<p><a href="https://www.sinemalar.com/sinemasalonlari/89/eskisehir">Cinemas in Eskisehir</a></p>
-<p><a href="http://eskisehir.eczaneleri.org/">Pharmacies in Eskisehir</a></p>
-<p><a href="http://www.avm.gen.tr/avm/eskisehir-alisveris-merkezleri">Malls in Eskisehir </a></p>
-<p><a href="https://www.biletinial.com/eskisehir-sehir-tiyatrolari">Eskisehir City Theatre </a></p>
-<p><a href="http://www.eskisehirkutup.gov.tr/">Eskisehir Public Library </a></p>
-<p><a href="https://www.anadolu.edu.tr/">Eskisehir Anadolu University </a></p>
-<p><a href="https://www.ogu.edu.tr/">Eskisehir Osmangazi University </a></p>
-<p><a href="http://www.eskisehir.bel.tr/ebb.php">Eskisehir City Hall </a></p></div>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">About Eskisehir</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home.htm">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="localdishes.htm">Local Dishes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="historicalplaces.htm">Historical Places</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="usefullinks.htm">Useful Links</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="aboutme.htm">About Me</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="contactme.htm">Contact Me</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="registration.htm">Registration</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+	<div class="container">
+		<h2>Useful Links</h2>
+  <p>There are some links that might be useful in some situations:</p>
+  <div class="btn-group-vertical">
+		<p><a href="https://www.hastane.com.tr/eskisehir-eskisehir_merkez-hastaneleri.html" class="btn btn-primary" role="button">Hospitals in Eskisehir</a></p>
+		<p><a href="https://www.sinemalar.com/sinemasalonlari/89/eskisehir" class="btn btn-primary" role="button">Cinemas in Eskisehir</a></p>
+		<p><a href="http://eskisehir.eczaneleri.org/" class="btn btn-primary" role="button">Pharmacies in Eskisehir</a></p>
+		<p><a href="http://www.avm.gen.tr/avm/eskisehir-alisveris-merkezleri" class="btn btn-primary" role="button">Malls in Eskisehir </a></p>
+		<p><a href="https://www.biletinial.com/eskisehir-sehir-tiyatrolari" class="btn btn-primary" role="button">Eskisehir City Theatre </a></p>
+		<p><a href="http://www.eskisehirkutup.gov.tr/" class="btn btn-primary" role="button">Eskisehir Public Library </a></p>
+		<p><a href="https://www.anadolu.edu.tr/" class="btn btn-primary" role="button">Eskisehir Anadolu University </a></p>
+		<p><a href="https://www.ogu.edu.tr/" class="btn btn-primary" role="button">Eskisehir Osmangazi University </a></p>
+		<p><a href="http://www.eskisehir.bel.tr/ebb.php" class="btn btn-primary" role="button">Eskisehir City Hall </a></p></div>
+  </div>
+</div>
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

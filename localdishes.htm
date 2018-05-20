@@ -2,11 +2,19 @@
 <html lang="tr">
 <html>
 <head>
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <title>About Eskisehir</title>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+      <title>About Eskisehir</title>
 <style>
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;}
+
 body{
 
 		color:white;	}
@@ -35,37 +43,54 @@ li a:hover {
     background-color: #111;
 }
 
-div1 {
-padding-top: 10px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 20px;
-}
 
 </style>
 </head>
 <body style="background-color:#424242;">
 
-  <ul>
-    <li><a class="active" href="home.htm">Home</a></li>
-    <li><a class="active" href="localdishes.htm">Local Dishes</a></li>
-    <li><a class="active" href="historicalplaces.htm">Historical Places</a></li>
-    <li><a class="active" href="usefullinks.htm">Useful Links</a></li>
-  	<li><a class="active" href="aboutme.htm">About Me</a></li>
-    <li><a class="active" href="contactme.htm">Contact Me</a></li>
-    <li><a class="active" href="registration.htm">Registration</a></li>
-  </ul>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">About Eskisehir</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home.htm">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="localdishes.htm">Local Dishes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="historicalplaces.htm">Historical Places</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="usefullinks.htm">Useful Links</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="aboutme.htm">About Me</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="contactme.htm">Contact Me</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link" href="registration.htm">Registration</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 <div class="container-fluid">
 
   <div1> <h1>Local Dishes of Eskisehir</h1>
   <p>Beyond the fact that Eskisehir provides great opportunities for every kind of person and is a great city which grows day by day, the city also has a great culture of dishes. Every dish here has a famous restaourant that is identified with, a little research about the dish you want to have would be helpful enough. Here are some examples for that:</p>
 
-
 <div class="row">
 
 <div class="col-lg-4">
-<img src="balaban.jpg" alt="Balaban Kebab" width="500" height="377">
+  <a class="text-white" href=https://eksisozluk.com/balaban-kebabi--66688 target="_blank">
+<img src="balaban.jpg" alt="Balaban Kebab" class="img-thumbnail" width="500" height="377">
 <div class="container">
   <h4><b>Balaban Kebab</b></h4>
   <p>It's a simple meal but one of the bests you can have.</p>
@@ -76,7 +101,8 @@ padding-left: 20px;
 
 
 <div class="col-lg-4">
-<img src="ciborek.jpg" alt="Ciborek" width="500" height="377">
+  <a class="text-white" href=http://www.turkeysforlife.com/2013/05/eskisehir-turkish-food-cigborek-ciborek.html target="_blank">
+<img src="ciborek.jpg" alt="Ciborek" class="img-thumbnail" width="500" height="407">
 <div class="container">
   <h4><b>Ciborek</b></h4>
   <p>Fried dough that contains minced meat, great meal.</p>
@@ -87,7 +113,8 @@ padding-left: 20px;
 
 
 <div class="col-lg-4">
-<img src="hashasli.jpg" alt="Hashasli Gozleme" width="500" height="377">
+  <a class="text-white" href=https://eksisozluk.com/hashasli--104232 target="_blank">
+<img src="hashasli.jpg" alt="Hashasli Gozleme" class="img-thumbnail" width="500" height="377">
 <div class="container">
   <h4><b>Hashasli Gozleme</b></h4>
   <p>Light and filling meal, perfect if you are not that hungry.</p>
@@ -98,7 +125,8 @@ padding-left: 20px;
 
 
 <div class="col-lg-4">
- <img src="met.jpg" alt="Met Helvasi" width="500" height="377">
+  <a class="text-white" href=https://eksisozluk.com/met-helvasi--310789 target="_blank">
+ <img src="met.jpg" alt="Met Helvasi" class="img-thumbnail" width="500" height="377">
  <div class="container">
    <h4><b>Met Helvasi</b></h4>
    <p>A light dessert which has lots of different kinds.</p>
@@ -109,7 +137,8 @@ padding-left: 20px;
 
 
 <div class="col-lg-4">
- <img src="kiygasa.jpg" alt="Kiygasa" width="500" height="377">
+  <a class="text-white" href=https://eksisozluk.com/kiygasa--1489754 target="_blank">
+ <img src="kiygasa.jpg" alt="Kiygasa" class="img-thumbnail" width="500" height="377">
  <div class="container">
    <h4><b>Kiygasa</b></h4>
    <p>Fried dough with love-in-a-mist.</p>
@@ -120,7 +149,8 @@ padding-left: 20px;
 
 
 <div class="col-lg-4">
- <img src="kalabak.jpg" alt="Kalabak Water" width="500" height="377">
+  <a class="text-white" href=https://eksisozluk.com/kalabak--318331 target="_blank">
+ <img src="kalabak.jpg" alt="Kalabak Water" class="img-thumbnail" width="500" height="377">
  <div class="container">
    <h4><b>Kalabak Water</b></h4>
    <p>Not a dish, but a famous thing that is identified with Eskişehir.</p>
